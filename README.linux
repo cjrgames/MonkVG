@@ -1,0 +1,19 @@
+Build Requirements for Linux (Ubuntu 12.04 LTS)
+-----------------------------------------------
+
+sudo apt-get install g++
+sudo apt-get install autoconf
+sudo apt-get install libtool
+sudo apt-get install libglew1.6-dev
+sudo apt-get install libboost1.48-dev
+
+autoreconf
+make
+
+To build projects/MonkVG-Test-Linux requires SDL:
+
+sudo apt-get install libsdl-dev
+
+--
+cjrgames
+
