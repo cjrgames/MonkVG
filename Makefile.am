@@ -1,3 +1,6 @@
+# make sure we include the in-tree libtool macros
+ACLOCAL_AMFLAGS=-I m4
+
 # name it as libOpenVG.so
 
 lib_LTLIBRARIES = libOpenVG.la 
