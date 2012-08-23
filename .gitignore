@@ -53,3 +53,10 @@ depcomp
 .libs/
 .deps/
 libtool
+
+# eclipse stuff
+.autotools
+.cproject
+.project
+.settings/
+
